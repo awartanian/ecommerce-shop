@@ -1,0 +1,37 @@
+{
+  "files": {
+    "main.css": "/ecommerce-shop/static/css/main.8a9fc06c.chunk.css",
+    "main.js": "/ecommerce-shop/static/js/main.bf488555.chunk.js",
+    "main.js.map": "/ecommerce-shop/static/js/main.bf488555.chunk.js.map",
+    "runtime-main.js": "/ecommerce-shop/static/js/runtime-main.8b4e865d.js",
+    "runtime-main.js.map": "/ecommerce-shop/static/js/runtime-main.8b4e865d.js.map",
+    "static/css/2.b57b7cfd.chunk.css": "/ecommerce-shop/static/css/2.b57b7cfd.chunk.css",
+    "static/js/2.0c83bd88.chunk.js": "/ecommerce-shop/static/js/2.0c83bd88.chunk.js",
+    "static/js/2.0c83bd88.chunk.js.map": "/ecommerce-shop/static/js/2.0c83bd88.chunk.js.map",
+    "index.html": "/ecommerce-shop/index.html",
+    "static/css/2.b57b7cfd.chunk.css.map": "/ecommerce-shop/static/css/2.b57b7cfd.chunk.css.map",
+    "static/css/main.8a9fc06c.chunk.css.map": "/ecommerce-shop/static/css/main.8a9fc06c.chunk.css.map",
+    "static/js/2.0c83bd88.chunk.js.LICENSE.txt": "/ecommerce-shop/static/js/2.0c83bd88.chunk.js.LICENSE.txt",
+    "static/media/Contact.scss": "/ecommerce-shop/static/media/contact-us.1966e414.png",
+    "static/media/TrendingProductComponent.scss": "/ecommerce-shop/static/media/dark-gray-background.c35c871d.jpg",
+    "static/media/DealsComponent.scss": "/ecommerce-shop/static/media/deal2.8a1a6171.png",
+    "static/media/Vouchers.scss": "/ecommerce-shop/static/media/gift-voucher.2f2e1b44.png",
+    "static/media/ReviewsPage.scss": "/ecommerce-shop/static/media/gray-background.75b5d377.jpg",
+    "static/media/HeroSlider.scss": "/ecommerce-shop/static/media/hero-imageSlider3.5519d474.png",
+    "static/media/lock-icon.773123e2.png": "/ecommerce-shop/static/media/lock-icon.773123e2.png",
+    "static/media/logo-arhera.b4548ca1.jpg": "/ecommerce-shop/static/media/logo-arhera.b4548ca1.jpg",
+    "static/media/paypal.007610a0.png": "/ecommerce-shop/static/media/paypal.007610a0.png",
+    "static/media/phone-icon.209f85be.png": "/ecommerce-shop/static/media/phone-icon.209f85be.png",
+    "static/media/return-box-icon.fd56a2dc.png": "/ecommerce-shop/static/media/return-box-icon.fd56a2dc.png",
+    "static/media/search-icon.9a179a79.png": "/ecommerce-shop/static/media/search-icon.9a179a79.png",
+    "static/media/spinner.7133f345.gif": "/ecommerce-shop/static/media/spinner.7133f345.gif",
+    "static/media/truck-icon.ac4ed7e9.png": "/ecommerce-shop/static/media/truck-icon.ac4ed7e9.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.8b4e865d.js",
+    "static/css/2.b57b7cfd.chunk.css",
+    "static/js/2.0c83bd88.chunk.js",
+    "static/css/main.8a9fc06c.chunk.css",
+    "static/js/main.bf488555.chunk.js"
+  ]
+}

@@ -1,0 +1,62 @@
+.trending-card {
+  display: flex;
+  flex-direction: column;
+  width: 13rem;
+  margin: 1rem 0.3rem;
+  position: relative;
+  top: 0;
+  transition: top ease 0.2s;
+  box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px,
+    rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+
+  &:hover {
+    top: -7px;
+  }
+
+  .trending-card-image {
+    padding: 1rem 0 2rem 0;
+    text-align: center;
+    background: white;
+    div {
+      border: 1px solid black;
+      margin: 0 0 1rem 1rem;
+      font-size: 0.9rem;
+      width: 3em;
+    }
+    img {
+      object-fit: contain;
+      height: 9rem;
+      width: 9rem;
+    }
+  }
+
+  .trending-card-text-container {
+    padding: 0.7rem 1rem;
+    background-image: url("../../../images/dark-gray-background.jpg");
+    background-position: center;
+    background-size: cover;
+
+    .trending-card-category {
+      text-transform: uppercase;
+      font-size: 0.8rem;
+      color: #fcd34e;
+    }
+
+    .trending-card-title {
+      font-size: 1rem;
+      font-weight: 300;
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      padding-top: 0.3rem;
+      color: white;
+    }
+
+    .trending-card-price {
+      font-weight: 600;
+      font-size: 0.9rem;
+      padding-top: 0.4rem;
+      color: white;
+    }
+  }
+}

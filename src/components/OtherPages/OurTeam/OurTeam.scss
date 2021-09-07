@@ -1,0 +1,78 @@
+.OurTeam {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem 0 3rem 0;
+
+  h1 {
+    text-align: center;
+  }
+
+  p {
+    width: 70%;
+    margin: 1rem auto;
+    font-weight: 300;
+    text-align: center;
+    color: rgb(113, 113, 113);
+    transition: 2s;
+    @media only screen and (max-width: 800px) {
+      width: 100%;
+    }
+  }
+  .Team-cards-wrapper {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    align-items: center;
+    margin: 2rem 0;
+  }
+}
+
+.Team-Card {
+  height: 26rem;
+  width: 26%;
+  display: flex;
+  align-items: flex-end;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+  margin: 1rem 0;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top;
+  justify-content: flex-end;
+  min-width: 23rem;
+  transition: 2s;
+  @media only screen and (max-width: 500px) {
+    min-width: 100%;
+  }
+
+  .Team-content {
+    background-color: white;
+    width: 70%;
+    height: 8rem;
+    display: flex;
+    flex-direction: column;
+    padding: 0.8rem 2rem;
+    justify-content: center;
+    align-items: flex-end;
+
+    .Team-underline {
+      width: 80%;
+      height: 0.1rem;
+      background: #dfdfdf;
+    }
+
+    span {
+      padding: 0.3rem 0;
+    }
+
+    .Team-name {
+      font-size: 1.6rem;
+      font-weight: 600;
+    }
+
+    .Team-title {
+      font-weight: 300;
+      color: rgb(113, 113, 113);
+      font-size: 0.9rem;
+    }
+  }
+}

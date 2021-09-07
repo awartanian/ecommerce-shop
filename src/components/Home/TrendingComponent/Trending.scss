@@ -1,0 +1,40 @@
+.trending-section {
+  padding: 1.5rem 3rem 2.5rem 3rem;
+  background-image: url("../../../images/gray-background.jpg");
+  background-position: center;
+  background-size: cover;
+  border: 1px solid rgba(175, 175, 175, 0.199);
+  margin: 1.3rem 0;
+
+  @media screen and (max-width: 800px) {
+    padding: 1.5rem 1rem 2.5rem 1rem;
+    margin: 0 0 1.3rem 0;
+  }
+
+  h3 {
+    font-size: 0.9rem;
+    padding: 0.5rem 0;
+    text-align: center;
+    margin: 0 auto;
+    font-weight: 600;
+    background: white;
+    border: 1px solid rgba(175, 175, 175, 0.658);
+    color: black;
+    max-width: 13rem;
+    text-transform: uppercase;
+  }
+
+  p {
+    text-align: center;
+    margin: 1rem;
+  }
+
+  .trending-section-wrapper {
+    display: flex;
+    overflow-x: auto;
+  }
+  a {
+    text-decoration: none;
+    color: black;
+  }
+}

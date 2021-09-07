@@ -1,0 +1,62 @@
+.Customer-Service-card {
+  display: flex;
+  flex-direction: column;
+  width: 25%;
+  height: 36.2rem;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: rgb(31, 31, 31);
+  color: white;
+  margin-left: 1rem;
+  min-width: 15rem;
+  transition: 2s;
+  @media only screen and (max-width: 900px) {
+    width: 100%;
+    margin-left: 0;
+  }
+
+  h4 {
+    letter-spacing: 0.2rem;
+    margin: 0;
+  }
+  p {
+    text-align: center;
+    font-size: 0.9rem;
+    width: 85%;
+    margin: 0;
+    color: gray;
+    letter-spacing: 0.1rem;
+  }
+  .image {
+    width: 9rem;
+    height: 9rem;
+    border-radius: 50%;
+    object-fit: cover;
+    object-position: top left;
+  }
+
+  .title {
+    text-transform: capitalize;
+    font-size: 1.3rem;
+  }
+  .role {
+    color: gray;
+    font-size: 0.85rem;
+    margin-top: -1.4rem;
+    letter-spacing: 0.1rem;
+    text-align: center;
+    width: 80%;
+  }
+  .email {
+    text-decoration: underline;
+    font-size: 0.95rem;
+    margin-top: -0.7rem;
+  }
+
+  .title-2 {
+    color: gray;
+    margin: -0.5rem 0 -1.8rem 0;
+    font-size: 0.9rem;
+    letter-spacing: 0.1rem;
+  }
+}

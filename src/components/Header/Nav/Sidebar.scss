@@ -1,0 +1,66 @@
+.Sidebar {
+  background-color: white;
+  color: black;
+  position: fixed;
+  top: 0;
+  z-index: 999;
+  width: 100%;
+  height: 100vh;
+  padding-top: 12rem;
+  border-left: 1px solid rgb(237, 237, 237);
+  background-color: rgb(244, 244, 244);
+}
+
+.Sidebar-item {
+  list-style: none;
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  cursor: pointer;
+  transition: 0.3s;
+  padding: 0.5rem 0 0.5rem 1rem;
+  border-bottom: 0.1rem solid rgb(227, 227, 227);
+  a {
+    color: rgb(77, 77, 77);
+    text-decoration: none;
+  }
+  &:hover {
+    padding-left: 2rem;
+  }
+  @media only screen and (max-width: 500px) {
+    font-size: 0.9rem;
+    padding: 0.3rem 0 0.3rem 0;
+    &:hover {
+      padding-left: 0.5rem;
+    }
+  }
+}
+
+#show-sidebar {
+  transform: translateX(60vw);
+  transition: 0.4s;
+
+  @media only screen and (max-width: 700px) {
+    transform: translateX(50vw);
+  }
+  @media only screen and (max-width: 400px) {
+    transform: translateX(35vw);
+  }
+}
+#hide-sidebar {
+  transform: translateX(100vw);
+  transition: 0.3s;
+}
+
+.Sidebar-parent {
+  position: relative;
+}
+
+.Sidebar-X {
+  font-size: 1.8rem;
+  color: rgb(74, 74, 74);
+  cursor: pointer;
+  position: fixed;
+  top: -5.5rem;
+  left: 0rem;
+  position: absolute;
+}

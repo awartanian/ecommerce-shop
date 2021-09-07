@@ -1,0 +1,63 @@
+.Nav-wrapper {
+  width: 100%;
+  height: 2.8rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-bottom: 0.1rem solid rgb(240, 240, 240);
+  margin-bottom: 1.2rem;
+  background-color: rgb(43, 43, 43);
+  margin-top: 2rem;
+}
+
+.Nav-parent {
+  display: flex;
+  justify-content: center;
+  list-style-type: none;
+  width: 100%;
+  height: 100%;
+  align-items: center;
+  position: relative;
+
+  .Nav-menu {
+    font-size: 1.8rem;
+    display: none;
+    cursor: pointer;
+    position: absolute;
+    right: 0.5rem;
+    top: 0.5rem;
+    color: rgb(228, 228, 228);
+    @media only screen and (max-width: 1000px) {
+      display: block;
+    }
+  }
+}
+
+.Nav-item a {
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 0.9rem;
+  color: rgb(222, 222, 222);
+  font-weight: 500;
+  margin: 0 1.5rem;
+  @media only screen and (max-width: 1000px) {
+    display: none;
+  }
+}
+
+.Nav-parent .Active-page {
+  font-weight: 700;
+  font-size: 0.9rem;
+  text-decoration: none;
+  color: rgb(222, 222, 222);
+}
+
+.Nav-menu {
+  font-size: 1.8rem;
+  display: none;
+  cursor: pointer;
+
+  @media only screen and (max-width: 1000px) {
+    display: block;
+  }
+}

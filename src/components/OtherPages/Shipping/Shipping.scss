@@ -1,0 +1,39 @@
+.Delivery-wrapper {
+  padding-bottom: 5rem;
+  padding-top: 0.1rem;
+  h2 {
+    margin: 1rem 0;
+  }
+  table {
+    border-collapse: collapse;
+    width: 50%;
+    margin-bottom: 4rem;
+    transition: 2s;
+    @media only screen and (max-width: 1200px) {
+      width: 100%;
+    }
+    td,
+    th {
+      border: 1px solid #ededed;
+      text-align: left;
+      padding: 0.5rem;
+    }
+    tr:nth-child(even) {
+      background-color: #e8e8e8;
+    }
+  }
+  span {
+    color: rgb(84, 84, 84);
+    margin: 2rem 0;
+    display: block;
+  }
+
+  p {
+    color: rgb(84, 84, 84);
+    margin: 1.2rem 0;
+    width: 60%;
+    @media only screen and (max-width: 1200px) {
+      width: 100%;
+    }
+  }
+}

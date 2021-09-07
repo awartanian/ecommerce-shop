@@ -1,0 +1,67 @@
+.each-slide {
+  .slide-1,
+  .slide-2,
+  .slide-3 {
+    height: 35vh;
+    min-height: 38rem;
+    max-height: 35rem;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-left: 6rem;
+    justify-content: flex-start;
+    padding-top: 14rem;
+    transition: 2s;
+
+    @media only screen and (max-width: 800px) {
+      min-height: 30rem;
+    }
+    @media only screen and (max-width: 600px) {
+      padding-left: 2rem;
+      height: 22rem;
+      min-height: 18rem;
+      padding-top: 5rem;
+    }
+  }
+
+  p {
+    font-size: 1.6rem;
+    color: white;
+    text-transform: uppercase;
+    font-weight: 600;
+    width: 17rem;
+  }
+  span {
+    font-size: 3rem;
+    font-weight: 600;
+    color: white;
+  }
+
+  button {
+    width: 9rem;
+    height: 3rem;
+    border: none;
+    text-transform: uppercase;
+    color: white;
+    font-weight: 700;
+    transition: 0.3s ease-in-out;
+    margin-top: 1rem;
+    cursor: pointer;
+    background-color: rgb(18, 18, 18);
+    font-size: 1.05rem;
+  }
+}
+
+.slide-1 {
+  background-image: url("../../../images/hero-slider/hero-imageSlider1.png");
+  background-position: center;
+}
+.slide-2 {
+  background-image: url("../../../images/hero-slider/hero-imageSlider2.png");
+  background-position: center;
+}
+.slide-3 {
+  background-image: url("../../../images/hero-slider/hero-imageSlider3.png");
+  background-position: center;
+}

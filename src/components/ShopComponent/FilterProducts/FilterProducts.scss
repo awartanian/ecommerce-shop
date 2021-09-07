@@ -1,0 +1,11 @@
+.products-filter-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+
+  h4 {
+    display: inline-block;
+    margin-right: 1rem;
+  }
+}

@@ -1,0 +1,39 @@
+.shop-top-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 0.5rem;
+  margin-bottom: 2rem;
+
+  .back-to-home {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 1rem;
+    cursor: pointer;
+    text-transform: capitalize;
+  }
+
+  @media only screen and (max-width: 690px) {
+    flex-direction: column;
+  }
+}
+
+.products-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 1rem 0 4rem 0;
+}
+
+.card-price-original {
+  color: rgb(125, 125, 125);
+  text-decoration: line-through;
+  text-decoration-color: rgb(255, 62, 62);
+}
+
+.card-price-discounted {
+  color: rgb(255, 62, 62);
+  font-weight: 600;
+  font-size: 1.4rem;
+}

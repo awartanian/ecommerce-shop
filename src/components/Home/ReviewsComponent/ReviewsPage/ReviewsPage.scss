@@ -1,0 +1,18 @@
+.reviews-page {
+  background-image: url("../../../../images/gray-background.jpg");
+  background-position: center;
+  background-size: cover;
+  padding: 2rem;
+  margin-bottom: 1.3rem;
+  border: 1px solid rgba(175, 175, 175, 0.199);
+
+  @media screen and (max-width: 800px) {
+    padding: 1rem;
+  }
+}
+
+.reviews-page__row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
